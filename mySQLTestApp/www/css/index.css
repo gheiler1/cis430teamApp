@@ -1,0 +1,42 @@
+/*
+* index.css
+* put your css here
+*/
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+html, body 	{ height: 100vh; } 	/* 100% of Viewport Height 		 	*/
+#header 	{ height:  10vh; } 	/* header gets some height       	*/
+#main	 	{ height:  90vh; }  /* map gets some height          	*/
+
+/* styles to make it look nice, not required for functionality   	*/
+#header 	{ 
+	background-color: 	black; 
+	margin: 			auto;
+}
+
+#buttonDiv {
+	text-align: 		center;
+}
+
+button {
+	font-size: 			2vh;
+}
+
+h1 {
+	text-align:  	center;		/* centered left-right 				*/
+	color: 			white;		/* white font color                 */
+	font-family: 	sans-serif;	/* modern look                      */
+	font-size: 		4vh; 		/* 8% Vertical Height responsive! 	*/
+								/* font will take up 8%, 1% pad top */
+								/* since container is 10%           */
+}
+
+pre {
+	margin-left: 		1vw;
+	font-family: 		monospace;
+	font-size: 			2vh;
+}
